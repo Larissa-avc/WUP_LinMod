@@ -156,7 +156,7 @@ anova_result <- anova(model.1, model.3)
 print(anova_result)
 ```
 
-
+P value is 4.99e-06 model 2 is better than model 1 because the P value is less than .5
 
 ```{r}
 anova_result <- anova(model.2, model.3)
